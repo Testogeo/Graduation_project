@@ -393,7 +393,7 @@ public class TourPurchaseTest {
             purchasePage.invalidOwnerField(info);
         }
         @Test
-        @DisplayName("'validationFieldsForm' Field 'Owner', SpecialSymbols")
+        @DisplayName("'validationFieldsForm' Field 'Owner', RussianSymbols")
         public void shouldCardWithRussianSymbolsOwner() {
             var purchasePage = new PurchasePage();
             var info = getCardWithRussianSymbolsOwner();
